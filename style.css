@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: basier, maison, arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  a {
+    color: blue;
+  }
+  
+  a:visited {
+    color: blue
+  }
+
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  code {
+    color: steelblue;
+    word-break: break-all;
+  }
+
+  small {
+    font-size: 90%;
+  }
+
+  hr {
+    margin-top: 15pt;
+  }
+
+  p {
+    margin-bottom: 10pt;
+  }
+
+  li {
+    margin-top: 0;
+  }
+
+  ul{
+    margin-right: 0;
+  }
+
+  img {
+    width: 200px;
+    margin: 10px;
+  }
+
+  iframe {
+    max-width: 500px;
+    margin: 10px;
+  }
+
+  #top-nav {
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 15;
+  }
+
+  #title {
+      text-align: center;
+      background-color: white;
+      display: inline-block;
+      vertical-align: middle;
+      width: 550px;
+      margin-top: 50px;
+      position: relative;
+      z-index: 10;
+      padding: 15px;
+  }
+
+  #title h1 {
+    margin-bottom: 5px;
+    font-size: 20pt;
+    line-height: 25pt;
+  }
+
+  #title h2 {
+    margin-top: 0;
+    font-size: 13pt;
+  }
+
+  #top-nav ul {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+  #top-nav li {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #top-nav li a {
+    color: blue
+  }
+
+  #top-nav li a:visited {
+    color: blue
+  }
+
+  #top-nav li:hover {
+      background-color: gainsboro;
+/*      color: white;*/
+  }
+
+  a:hover {
+    
+  }
+
+  #introduction, #codes, #ref, #alumni {
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 11pt;
+
+  }
+
+
+ .table-schedule {
+   margin-top: 20px;
+ }
+
+  table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: greenyellow;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  #tools {
+    background-color: tomato;
+    padding: 20px;
+  }
+
+.module {
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 15pt;
+    position: relative;
+    z-index: 10;
+}
+
+
+@media all and (max-width: 600px) {
+  #title {
+    width: 100%;
+  }
+
+  #introduction {
+    margin-top: 90px;
+  }
+
+  #schedule h2 {
+    padding: 10px;
+  }
+}
